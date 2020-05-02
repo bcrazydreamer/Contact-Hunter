@@ -1,0 +1,134 @@
+body{
+  width: 400px;
+  position: relative;
+}
+body::-webkit-scrollbar {
+  display: none !important;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+}
+::-moz-selection {
+  color: #000000;
+  background: #ffffff;
+}
+
+::selection {
+  color: #000000;
+  background: #ffffff;
+}
+img,header {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.head{
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(81,45,168), rgb(103,58,183)) !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-bottom: 4px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+}
+.no-data{
+  height: 100px;
+  width: 100px;
+}
+.contact-main-div{
+  position: relative;
+  min-height: 70px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:4px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.contact-main-div:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.phone-container{
+  color: #ffffff !important;
+  background: linear-gradient(to right, rgb(81,45,168), rgb(103,58,183)) !important;
+}
+.email-container{
+  color: #ffffff !important;
+  background: linear-gradient(to right, #F69F00, #F75D00) !important;
+}
+.contact-number{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.contact-country{
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 100;
+  font-style: italic;
+}
+.contact-text{
+  overflow: scroll;
+  padding-top: 8px;
+}
+.contact-text::-webkit-scrollbar {
+  display: none !important;
+}
+.contact-text::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+.contact-text::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+}
+.contact-img{
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.contact-img-phone{
+  margin-top: 12px;
+}
+#main-output{
+  padding-top: 100px !important;
+}
+.main-title{
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.no-data-msg{
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(255, 0, 64) !important;
+}
+.custom-badge-1{
+ background: rgb(103,58,183);
+ font-size: 18px;
+ float: right;
+ border-radius: 15px;
+ border-top-right-radius: 0;
+ transition: all 500ms;
+ border-bottom-right-radius: 0;
+}
+.custom-badge-2{
+ background: #F75D00;
+ font-size: 18px;
+ border-radius: 15px;
+ border-top-left-radius: 0;
+ border-bottom-left-radius: 0;
+ transition: all 500ms;
+}
+.custom-badge-1:hover,.custom-badge-2:hover{
+  padding-right: 100px;
+}
