@@ -14,6 +14,7 @@ chrome.runtime.onMessage.addListener(function(request, sender) {
   		html += "	<span class='contact-number'>"+request.source[0][i][0]+"<span><br>";
   		try{
 	  		if(request.source[0][i][1]){
+				html += "	<span class='contact-country'>"+cc_obj[request.source[0][i][1]].flag+"<span>";
 	  			html += "	<span class='contact-country'>"+cc_obj[request.source[0][i][1]].name+"<span><br>";
 	  		}else{
 	  			html += "	<span class='contact-country'>Can't find country<span><br>";

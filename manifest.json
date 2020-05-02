@@ -1,7 +1,7 @@
 {
-  "name": "Contact-Hunter",
+  "name": "Contact-Hunter-1",
   "description": "This app will find and show all phone number with country detail and emails",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
     "scripts": ["background.js"]
   },
@@ -10,6 +10,11 @@
       "default_title": "Contact-Hunter",
       "default_icon": "./img/logo.png",
       "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "./img/icon-16.png",
+    "48": "./img/icon-48.png",
+    "128": "./img/icon-128.png"
   },
   "manifest_version": 2
 }
